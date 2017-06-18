@@ -9,19 +9,19 @@ Gamelín incluye:
 
 *Puerto USB tipo B.
 
-*Entrada de allimentación (con protección contra polaridad invertida) con regulador a 5V (7805) con una entrega de 1,5A máximo y entrada de voltage de hasta 35V (7V a 12V sugerida).
+*Entrada de allimentación (con protección contra polaridad invertida) con regulador a 5V (7805) con una entrega de 1,5A máximo y entrada de voltaje de hasta 35V (7V a 12V sugerida).
 
 *Conector para batería de 9V.
 
 *Salida de audio (TRS 3,5mm stereo) con control de volumen en su pin A (D0).
 
-*Superficie táctil para control con sensibilidad ajustable (trimpot) en el pin E (A3).
+*Superficie táctil con sensibilidad ajustable (trimpot) en el pin E (A3).
 
 *Potenciómetro en el pin D (A2).
 
 *Transistor NPN (BC548) para controlar actuadores (motores, relés, etc.) y luces (tiras de leds y leds de alta potencia) hasta 30V y 300mA en su pin C (D1/PWM).
 
-*Compatibildad para conexión directa de neopixel sticks en pin B (D2).
+*Compatibilidad para conexión directa de neopixel sticks en pin B (D2).
 
 *Conector de 9 pines para prototipado en protoboard.
 
