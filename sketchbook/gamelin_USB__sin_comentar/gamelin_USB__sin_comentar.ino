@@ -25,7 +25,7 @@ int freq[]= {65,69,78,98,104,116,131,139,156,
              466,523,554,622,784,831,932,1046,
              1109,1244,1568,1661,1865,2093,2217,
              2489,3136,3322,3729};
-int disparo[]= {25,50,100,200,400,800,1600};
+int disparo[]= {1,5,25,50,100,200,400,800,1600};
 int cobre;         
 int pote;
 void setup() {
@@ -35,7 +35,7 @@ void loop() {
   pote= analogRead (A2);  
   cobre = analogRead(A3);
   int val1 =  map(cobre, 0, 899, 35, 0);
-  int val2= map(pote, 0, 1023, 6, 0);
+  int val2= map(pote, 0, 1023, 8, 0);
 if (cobre < 900){
   tone (0, freq[val1]);
 delay (disparo[val2]); 
