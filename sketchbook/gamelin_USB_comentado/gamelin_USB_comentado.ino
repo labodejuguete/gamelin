@@ -28,7 +28,7 @@ int freq[]= {65,69,78,98,104,116,131,139,156,
              2489,3136,3322,3729}; // variable de tipo array (matriz) donde guardo las 
                                    //frecuencias a ejecutar. Luego las buscaré por su ubicación
                                    // o número de índice dentro del array.
-int disparo[]= {25,50,100,200,400,800,1600}; // variable de tipo array (matriz) donde guardo los 
+int disparo[]= {1,5,25,50,100,200,400,800,1600}; // variable de tipo array (matriz) donde guardo los 
                                           //intervalos de tiempo (expresados en milisegundos)
                                           //entre los "disparos" de cada tono. Luego los
                                           //buscaré por su ubicación o número de índice dentro
@@ -51,7 +51,7 @@ void loop() { //ésto se ejecuta continuamente...
                                         //a la cantidad de valores de frecuencia guardados
                                         //en el array freq[].
   
-  int val2= map(pote, 0, 1023, 6, 0); //variable donde asigno el resultado de escalar
+  int val2= map(pote, 0, 1023, 8, 0); //variable donde asigno el resultado de escalar
                                         //los valores guardados en la variable pote
                                         //a la cantidad de valores de tiempo guardados
                                         //en el array disparo[].
