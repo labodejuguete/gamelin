@@ -1,4 +1,4 @@
-![Alt text](gamelin/gamelinUSB.JPG?raw=true "Title")
+![alt tag](https://user-images.githubusercontent.com/22006565/28234967-fb0b0be8-68db-11e7-9765-240df116ace1.JPG)
 # gamelin
 Gamelín (USB) es una placa de desarrollo electrónico basada en el uso del microcontrolador ATTINY85. 
 Toma como base para su diseño al modelo Digispark de Digistump:
